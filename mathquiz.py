@@ -73,3 +73,4 @@ while i < 20:
         iTotal += 1 
         print ("Incorrect. Your score is ", iCorrect, "/", iTotal, ". The correct value was ", iAnswer, ".")
 
+print("Thanks for trying")
