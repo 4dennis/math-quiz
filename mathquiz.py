@@ -70,7 +70,7 @@ while i < 20:
         print ("Correct! Your score is ", iCorrect, "/", iTotal)
 
     else:
-        iTotal += 1 
+        iTotal += 1
         print ("Incorrect. Your score is ", iCorrect, "/", iTotal, ". The correct value was ", iAnswer, ".")
 
-print("Thanks for trying")
+print("\nThanks for trying. Your final score was ", iCorrect, "/", iTotal,"\n")
