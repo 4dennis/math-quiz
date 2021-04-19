@@ -8,7 +8,9 @@ iCorrect = 0
 iTotal = 0
 i = 0
 
-while i < 6:
+while i < 20:
+
+    i += 1
 
     #operation for quiz ex + / * -
     iOperator = random.randint(0,5) 
