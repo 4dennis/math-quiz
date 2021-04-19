@@ -1,6 +1,6 @@
 import random
 
-iDifficulty = 10
+iDifficulty = 15
 
 iUser = 0
 iAnswer = 0
@@ -8,7 +8,7 @@ iCorrect = 0
 iTotal = 0
 i = 0
 
-while i < 20:
+while i < 10:
 
     i += 1
 
@@ -64,7 +64,7 @@ while i < 20:
   
 
     if int(iUser) == iAnswer:
-        iDifficulty += 1
+        iDifficulty += 2
         iCorrect += 1
         iTotal += 1
         print ("Correct! Your score is ", iCorrect, "/", iTotal)
